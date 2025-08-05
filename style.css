@@ -61,7 +61,10 @@ a:hover {
 
 @media (max-width:1000px) {
     #acima {
-        height: 250px
+        height: 200px;
+        width:350px;
+        margin:0 ;
+     
     }
 
     .texto {
