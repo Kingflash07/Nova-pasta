@@ -1,4 +1,6 @@
-*{  font-family: "Lora", serif;}
+* {
+    font-family: "Lora", serif;
+}
 
 body {
     background-color: black;
@@ -12,8 +14,9 @@ body {
 }
 
 #acima {
-    width: 100%;
+    width: 80%;
     height: 500px;
+    margin-left:150px
 }
 
 #primeira {
@@ -28,7 +31,7 @@ body {
     height: 500px;
 }
 
-P {
+h3 {
     color: white;
     font-size: 30px;
     letter-spacing: 2px;
@@ -40,13 +43,13 @@ a {
     cursor: pointer;
     color: white;
     background-color: green;
-    margin-left: 250px;
+    margin-left: 500px;
     border-radius: 10px;
     margin-bottom: 400px;
 }
 
 a:hover {
-background-color: red;
+    background-color: red;
 }
 
 .final {
@@ -54,4 +57,39 @@ background-color: red;
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+@media (max-width:1000px) {
+    #acima {
+        height: 250px
+    }
+
+    .texto {
+        font-size: 1.5em;
+        font-weight: 1.5em;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    a {
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.2em;
+        text-align: center;
+
+    }
+
+    #primeira {
+        display: none;
+    }
+
+    #segunda {
+        display: none;
+    }
 }
