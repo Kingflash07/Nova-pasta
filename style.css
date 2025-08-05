@@ -1,0 +1,57 @@
+*{  font-family: "Lora", serif;}
+
+body {
+    background-color: black;
+
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    background-color: grey;
+}
+
+#acima {
+    width: 100%;
+    height: 500px;
+}
+
+#primeira {
+    width: 700px;
+    height: 500px;
+    margin-left: 80px;
+
+}
+
+#segunda {
+    width: 700px;
+    height: 500px;
+}
+
+P {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+a {
+    width: 100%;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-bottom: 400px;
+}
+
+a:hover {
+background-color: red;
+}
+
+.final {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
